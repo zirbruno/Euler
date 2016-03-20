@@ -52,14 +52,11 @@ public class Euler{
         String seis="*(";
         String siete=")";
        
-        
-       
         String g=dos+tres+cinco+seis+fun+siete;//y+h*(f(x,y))
-        System.out.println("g=");
-        System.out.println(g);
+        
         result = util.evaluate(dos+tres+cinco+seis+fun+siete);
         Double res=Double.parseDouble(result.toString());
-        System.out.printf("%f",res);
+        
         Euler obj=new Euler(x0,xf,y0,h,res);
         return obj;
 
