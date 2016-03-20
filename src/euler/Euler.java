@@ -34,23 +34,20 @@ public class Euler{
         String dos= Double.toString(y0);
         //checando que se asigne el valor a y
         IExpr result = util.evaluate(uno+dos);
-        System.out.println("y=");
-        System.out.println(result.toString());
+        
         
         //asignando valor a x
         String ocho="x=";
         String nueve= Double.toString(x0);
         result = util.evaluate(ocho+nueve);
-        System.out.println("x=");
-        System.out.println(result.toString());
+        
         
         String tres="+";
         
         String cuatro= "h=";
         String cinco=Double.toString(h);
         result = util.evaluate(cuatro+cinco);
-        System.out.println("h=");
-        System.out.println(result.toString());
+        
         
         String seis="*(";
         String siete=")";
@@ -73,7 +70,7 @@ public class Euler{
         this.xf=0;
         this.y0=0;
         this.h=0;
-        this.resultado=0; //To change body of generated methods, choose Tools | Templates.
+        this.resultado=0; 
     }
 
 }
